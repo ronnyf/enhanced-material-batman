@@ -1,0 +1,23 @@
+{
+    "name": "enhanced-material-batman",
+    "displayName": "Enhanced Material - Batman",
+    "description": "A color theme for the dark knight based based on the great 'Enhanced Material' theme.",
+    "publisher": "RonnyFX",
+    "repository": "git@github.com:ronnyf/enhanced-material-batman.git",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Batman",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Batman-color-theme.json"
+            }
+        ]
+    }
+}
